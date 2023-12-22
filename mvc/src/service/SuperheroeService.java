@@ -24,6 +24,7 @@ public class SuperheroeService {
     }
 
     public List<Superheroe> obtenerTodos() {
+        // Lista de superheroes not deleted.
         return superheroeRepository.obtenerTodos();
     }
 

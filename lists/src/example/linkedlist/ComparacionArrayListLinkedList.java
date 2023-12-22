@@ -18,7 +18,9 @@ public class ComparacionArrayListLinkedList {
 
         // Medir tiempo para la inserción al principio
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < NUM_ELEMENTOS; i++) {
+        for (int i = 0;
+             i < NUM_ELEMENTOS;
+             i++) {
             arrayList.add(0, new Usuario("Usuario" + i, i));
         }
         long endTime = System.currentTimeMillis();
@@ -26,7 +28,8 @@ public class ComparacionArrayListLinkedList {
 
         // Medir tiempo para la iteración hacia atrás
         startTime = System.currentTimeMillis();
-        ListIterator<Usuario> listIterator = arrayList.listIterator(arrayList.size());
+        ListIterator<Usuario> listIterator =
+                arrayList.listIterator(arrayList.size());
         while (listIterator.hasPrevious()) {
             Usuario usuario = listIterator.previous();
         }
@@ -39,7 +42,9 @@ public class ComparacionArrayListLinkedList {
 
         // Medir tiempo para la inserción al principio
         startTime = System.currentTimeMillis();
-        for (int i = 0; i < NUM_ELEMENTOS; i++) {
+        for (int i = 0;
+             i < NUM_ELEMENTOS;
+             i++) {
             linkedList.addFirst(new Usuario("Usuario" + i, i));
         }
         endTime = System.currentTimeMillis();
@@ -47,7 +52,8 @@ public class ComparacionArrayListLinkedList {
 
         // Medir tiempo para la iteración hacia atrás
         startTime = System.currentTimeMillis();
-        ListIterator<Usuario> listIteratorLinkedList = linkedList.listIterator(linkedList.size());
+        ListIterator<Usuario> listIteratorLinkedList =
+                linkedList.listIterator(linkedList.size());
         while (listIteratorLinkedList.hasPrevious()) {
             Usuario usuario = listIteratorLinkedList.previous();
         }

@@ -40,6 +40,8 @@ public class SuperheroeController {
 
     public void actualizarSuperheroe(Long id, String nuevoNombre,
                                      String nuevoPoder) {
+
+        // Obtener ese superheroe -> Optional: envoltorio del objeto principal.
         Optional<Superheroe> superheroeOptional =
                 superheroeService.obtenerPorId(id);
         if (superheroeOptional.isPresent()) {
@@ -59,5 +61,13 @@ public class SuperheroeController {
         } else {
             System.out.println("Superhéroe no encontrado con ID: " + id);
         }
+    }
+
+    public Superheroe obtenerSuperheroe(Long id) {
+        return new Superheroe();
+    }
+
+    public String status() {
+        return "OK";
     }
 }

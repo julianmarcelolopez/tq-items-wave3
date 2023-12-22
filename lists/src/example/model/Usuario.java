@@ -16,8 +16,20 @@ public class Usuario {
         return edad;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
     @Override
     public String toString() {
         return "Usuario{" + "nombre='" + nombre + '\'' + ", edad=" + edad + '}';
+    }
+
+    public void saltar() {
+        System.out.println(this.nombre + " esta saltando");
     }
 }
