@@ -5,6 +5,8 @@ public class Superheroe {
     private String nombre;
     private String poder;
 
+    private boolean deleted;
+
     // Constructor vacío necesario para algunas operaciones de persistencia
     public Superheroe() {
     }
@@ -39,6 +41,14 @@ public class Superheroe {
 
     public void setPoder(String poder) {
         this.poder = poder;
+    }
+
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
     }
 
     // Método toString para imprimir fácilmente los detalles del superhéroe
