@@ -1,2 +1,12 @@
 # TQ Contents
+- design patterns:
+    - singleton sample
+- lists:
+    - array sample
+    - arraylist sample
+    - linkedlist sample
+    - set sample
+    - map sample 
+- operators: using operators sample
 - mvc: mvc architecture module sample
+- var: using var sample
