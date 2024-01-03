@@ -14,6 +14,7 @@
 .settings/
 
 # Maven
+out/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
