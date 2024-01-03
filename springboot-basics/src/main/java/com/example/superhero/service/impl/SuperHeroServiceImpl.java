@@ -16,6 +16,11 @@ public class SuperHeroServiceImpl implements SuperHeroService {
     }
 
     @Override
+    public String helloMyNameIs(String name) {
+        return "Hello! My name is " + name;
+    }
+
+    @Override
     public String helloRepository() {
         return this.superHeroRepository.helloRepository();
     }
