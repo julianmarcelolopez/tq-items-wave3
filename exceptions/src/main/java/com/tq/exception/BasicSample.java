@@ -10,15 +10,15 @@ public class BasicSample {
         } catch (ArithmeticException e) {
             // Manejo de la excepción ArithmeticException
             System.out.println("Error: División por cero.");
-        } finally {
-            // Bloque opcional que siempre se ejecutará
-            System.out.println("El programa continúa ejecutándose...");
+        } catch(Exception ex) {
+            System.out.println(ex.getMessage());
         }
     }
 
     // Método que podría lanzar una excepción (ArithmeticException)
-    private static int dividir(int numerador, int denominador) {
-        return numerador / denominador;
+    private static int dividir(int numerador, int denominador) throws Exception {
+        throw new Exception("Code: 100 - Servicio momentaneamente no disponible.");
+        //return numerador / denominador;
     }
 }
 
