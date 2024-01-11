@@ -1,4 +1,4 @@
-package main.java.com.example.superhero.repository;
+package com.example.superhero.repository;
 
 import com.example.superhero.model.SuperHero;
 import org.springframework.stereotype.Repository;

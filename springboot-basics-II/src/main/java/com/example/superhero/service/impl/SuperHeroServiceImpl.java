@@ -1,4 +1,4 @@
-package main.java.com.example.superhero.service.impl;
+package com.example.superhero.service.impl;
 
 import com.example.superhero.model.SuperHero;
 import com.example.superhero.repository.SuperHeroRepository;

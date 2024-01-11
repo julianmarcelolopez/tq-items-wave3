@@ -1,4 +1,4 @@
-package main.java.com.example.superhero.controller;
+package com.example.superhero.controller;
 
 import com.example.superhero.model.SuperHero;
 import com.example.superhero.service.impl.SuperHeroServiceImpl;
@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/superhero")
 public class SuperHeroController {
     @Autowired
-    private SuperHeroServiceImpl superHeroService;
+    private com.example.superhero.service.impl.SuperHeroServiceImpl superHeroService;
 
     @Value("${server.port}")
     private String valor;
@@ -31,7 +31,8 @@ public class SuperHeroController {
     // GET
     @RequestMapping("/get-all")
     public ResponseEntity<List<SuperHero>> getAll() {
-        return new ResponseEntity<>(superHeroService.getAll(), HttpStatus.OK);
+        return null;
+//        return new ResponseEntity<>(superHeroService.getAll(), HttpStatus.OK);
     }
 
     @RequestMapping("/get-by-id/{id}")

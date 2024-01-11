@@ -1,4 +1,4 @@
-package main.java.com.example.superhero;
+package com.example.superhero;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
