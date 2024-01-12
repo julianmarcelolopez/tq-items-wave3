@@ -1,0 +1,8 @@
+package patterns.factory;
+
+public class RectangleFactory implements ShapeFactory {
+  @Override
+  public Shape createShape() {
+    return new Rectangle();
+  }
+}
