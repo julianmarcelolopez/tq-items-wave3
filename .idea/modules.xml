@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/solid/solid.iml" filepath="$PROJECT_DIR$/solid/solid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-basics/springboot-basics.iml" filepath="$PROJECT_DIR$/springboot-basics/springboot-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-basics-II/springboot-basics-II.iml" filepath="$PROJECT_DIR$/springboot-basics-II/springboot-basics-II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-database/springboot-database.iml" filepath="$PROJECT_DIR$/springboot-database/springboot-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-lombok/springboot-lombok.iml" filepath="$PROJECT_DIR$/springboot-lombok/springboot-lombok.iml" />
       <module fileurl="file://$PROJECT_DIR$/tq-items-wave3.iml" filepath="$PROJECT_DIR$/tq-items-wave3.iml" />
     </modules>
