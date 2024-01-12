@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/logging-II/pom.xml" />
         <option value="$PROJECT_DIR$/logback/pom.xml" />
         <option value="$PROJECT_DIR$/logging-log4j/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-lombok/pom.xml" />
       </list>
     </option>
   </component>
