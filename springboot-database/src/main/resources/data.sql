@@ -13,5 +13,3 @@ INSERT INTO SUPERHERO (name, description,capa) VALUES
   ('superman', ' es fuerte ', true),
   ('lintena verde', ' es verde ', true),
   ('mujer maravilla', ' es mujer ', true);
-
-

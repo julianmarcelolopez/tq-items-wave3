@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-h2" />
         <module name="springboot-database" />
         <module name="springboot-lombok" />
         <module name="logging-log4j" />
@@ -19,6 +20,7 @@
       <module name="logging-logback" target="17" />
       <module name="springboot-basics" target="17" />
       <module name="springboot-database" target="17" />
+      <module name="springboot-h2" target="11" />
       <module name="springboot-lombok" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +30,7 @@
       <module name="logging-logback" options="-parameters" />
       <module name="springboot-basics" options="-parameters" />
       <module name="springboot-database" options="-parameters" />
+      <module name="springboot-h2" options="-parameters" />
       <module name="springboot-lombok" options="-parameters" />
     </option>
   </component>
