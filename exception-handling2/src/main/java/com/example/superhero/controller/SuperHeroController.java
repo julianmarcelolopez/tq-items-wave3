@@ -39,7 +39,9 @@ public class SuperHeroController {
 
     }
 
-    @ExceptionHandler(NotFoundCustomException.class)
+    /////////////////////////////////////////////////////////////////////////
+
+    @ExceptionHandler({NotFoundCustomException.class})
     @ResponseBody
     @ResponseStatus(HttpStatus.NOT_FOUND)
     public ErrorMessage handleNotFoundException(HttpServletRequest request,
