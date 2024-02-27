@@ -15,7 +15,7 @@ public class SuperHeroController {
   @Autowired private SuperHeroServiceImpl superHeroService;
 
   @RequestMapping("/get-all")
-  public ResponseEntity<List<SuperHero>> getSuperheroes() throws Exception {
+  private ResponseEntity<List<SuperHero>> getSuperheroes() throws Exception {
     return new ResponseEntity<>(superHeroService.findAll(), HttpStatus.OK);
   }
 }
