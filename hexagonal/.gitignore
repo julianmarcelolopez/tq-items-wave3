@@ -1,5 +1,4 @@
 HELP.md
-spring-boot-clean-architecture-main/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
