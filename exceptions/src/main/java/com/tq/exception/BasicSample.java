@@ -2,6 +2,10 @@ package com.tq.exception;
 
 public class BasicSample {
 
+    /**
+     * Test method
+     * @param args
+     */
     public static void main(String[] args) {
         try {
             // Código que podría lanzar una excepción
